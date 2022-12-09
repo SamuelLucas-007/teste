@@ -1,0 +1,29 @@
+primeiramente em um projeto, entre em uma pasta e de um npm init
+
+
+depois criei um js que chama server.js
+de um npm install express --save
+depois um npm install eslint --save-dev
+
+depois dar um ./node_modules/.bin/eslint --init
+You can also run this command directly using 'npm init @eslint/config'.
+√ How would you like to use ESLint? · style
+√ What type of modules does your project use? · commonjs
+√ Which framework does your project use? · none
+√ Does your project use TypeScript? · No / Yes
+√ Where does your code run? · node
+√ How would you like to define a style for your project? · prompt
+√ What format do you want your config file to be in? · JSON
+√ What style of indentation do you use? · tab
+√ What quotes do you use for strings? · double
+√ What line endings do you use? · windows
+√ Do you require semicolons? · No / Yes
+
+
+dar ctrl+shift+p e selecionar settings json
+adicionar 
+"editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    }
+
+para corrigir tudo no projeto [e so colocar o seguinte codigo no terminal: "./node_modules/.bin/eslint --fix ."
